@@ -1,0 +1,42 @@
+.search-bar{
+    display: flex;
+    background-color:  #000000;
+}
+.search-bar .logo-company input {
+    margin-left: 250px;
+    border-radius: 30px;
+    width: 500px;
+    height: 50px;
+  }
+.header {
+    background-color: #f0f0f0; /* Light grey background */
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between; /* Space out content horizontally */
+    align-items: center; /* Align content vertically */
+  }
+  
+  .container {
+    display: flex; /* Allow side-by-side arrangement */
+  }
+    
+  .search-icon {
+    position: absolute; /* Position the icon within the container */
+    top: 50%; /* Center the icon vertically */
+    transform: translateY(-50%); /* Adjust vertical centering as needed */
+    right: 10px; /* Adjust horizontal position from the right edge */
+    /* Adjust icon size or other styles as needed */
+  }
+
+  .search-input { 
+    background: url(https://img.icons8.com/ios/50/000000/search--v1.png)no-repeat 15px center  ;
+    background-color: #f0f0f0;
+    padding-left: 180px;
+    background-size: 35px 35px;
+  }
+
+  .user-account{
+    display: inline;
+    padding-left: 370px;
+    color: #f0f0f0;
+  }

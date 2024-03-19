@@ -1,0 +1,54 @@
+.card-container .header-of-card-container{
+    margin-top: 30px;
+    font-weight: 900;
+    font-size: 50px;
+    text-align: center;
+    /* background-image: url("C:\\Users\\patel\\OneDrive - Infocusp Innovations\\Desktop\\Basic React app\\basic-react-app\\src\\Components\\Gold Minimalist Quotes Motivational Positivity Video inverted.gif"); */
+    color: rgb(255, 179, 0);
+    padding-bottom: 10px;
+    text-shadow: 1px 1px 1px #919191,
+    1px 2px 1px #ff0000,
+    1px 3px 1px #d75050,
+    1px 4px 1px #02ff02,
+    1px 5px 1px #e3f33a,
+
+    1px 18px 6px rgba(16,16,16,0.4),
+    1px 22px 10px rgba(16,16,16,0.2),
+    1px 25px 35px rgba(16,16,16,0.2),
+    1px 30px 60px rgba(16,16,16,0.4);
+
+}
+
+.card-container{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-container .card img{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    size: 40px 40px;
+    background-color: rgb(255, 255, 255);
+}
+
+.card-container .card .card-body{
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.card-container .card .card-body button{
+    margin-left: 67px;
+    border-radius: 10px;
+    background-color: rgb(131, 227, 134);
+}
+
+.card-container .card .card-body .card-title{
+    color: rgb(0, 0, 0);
+}
+
+.card-container .card .card-body .card-text{
+    color: rgb(0, 0, 0);
+}

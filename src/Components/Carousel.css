@@ -1,0 +1,28 @@
+.container {
+    margin-top: 50px;
+    overflow: hidden;
+    width: auto; /* Prevent horizontal overflow for smooth slide transitions */
+  }
+  
+  .row {
+    display: flex; /* Arrange columns horizontally */
+    transition: transform 0.5s ease-in-out; /* Smooth transition for slide animation */
+    width: auto;
+  }
+  
+  .col {
+    flex: 0 0 10%; /* Make each column 10% of container width */
+    text-align: center; /* Center content within columns */
+  }
+  
+  .carousel-image {
+    width: 100%; /* Set image width to fill the column */
+    height: 100%; /* Maintain image aspect ratio */
+    object-fit: cover; /* Scale image to cover the column while maintaining aspect ratio */
+  }
+  
+  .carousel-image:hover { /* Optional hover effect */
+    opacity: 0.8; /* Slightly reduce opacity on hover */
+  }
+
+  
