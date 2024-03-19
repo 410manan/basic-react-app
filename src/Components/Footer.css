@@ -1,0 +1,79 @@
+/* Footer.css */
+
+.footer {
+    background-color: #f0f0f0; /* Light grey background */
+    padding: 20px 0;
+  }
+  
+  .container {
+    max-width: 1000px; /* Limit container width */
+    margin: 0 auto; /* Center container horizontally */
+  }
+  
+  .row {
+    display: flex; /* Allow side-by-side arrangement of sections */
+    flex-wrap: wrap; /* Wrap sections automatically if needed */
+    gap: 20px; /* Adjust gap size as needed */
+  }
+  
+  .col-md-6,
+  .col-lg-3,
+  .col-sm-6 {
+    flex: 2 0 auto; /* Flexible width, minimum width 0, grow as needed */
+    padding: 0px; /* Add some padding for spacing */
+    gap: 100px;
+  }
+  
+  .footer-heading {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #ff1111; /* Text color for headings */
+  }
+  
+  .footer-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-item {
+    margin-bottom: 5px;
+  }
+  
+  .footer-link {
+    color: #333; /* Text color for links */
+    text-decoration: none;
+    transition: color 0.2s ease-in-out; /* Smooth hover effect */
+  }
+  
+  .footer-link:hover {
+    color: #000; /* Darker color on hover */
+  }
+  
+  .telNo {
+    margin-bottom: 5px;
+  }
+  
+  .copyRights {
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+    font-size: 14px;
+  }
+  
+  .social-media {
+    margin-top: 10px; /* Add some space above social media icons */
+    display: flex;
+    justify-content: space-between; /* Space icons evenly */
+  }
+  
+  .social-media a {
+    color: #000000; /* Light color for social media icons */
+    font-size: 20px;
+    transition: color 0.2s ease-in-out; /* Smooth hover effect */
+  }
+  
+  .social-media a:hover {
+    color: #000; /* Darker color on hover */
+  }
+  

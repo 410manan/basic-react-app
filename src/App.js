@@ -7,6 +7,7 @@ import Section1 from './Components/Section'
 import './Components/Global.css'
 import SearchBar from './Components/Header';
 import Card from './Components/Cards';
+import Footer from './Components/Footer';
 
 
 const App = () => {
@@ -21,6 +22,8 @@ const App = () => {
             <Card imageSrc="https://beta.lswdistro.com/files/EARTH%20KRATOM%20150CT%20CAPSULES.jpeg" title="EARTH KRATOM 150CT CAPSULES" text="500$" />
             <Card imageSrc="https://beta.lswdistro.com/files/EARTH%20KRATOM%20150CT%20CAPSULES.jpeg" title="EARTH KRATOM 150CT CAPSULES" text="500$" />
             <Card imageSrc="https://beta.lswdistro.com/files/EARTH%20KRATOM%20150CT%20CAPSULES.jpeg" title="EARTH KRATOM 150CT CAPSULES" text="500$" />
+            <Card imageSrc="https://beta.lswdistro.com/files/EARTH%20KRATOM%20150CT%20CAPSULES.jpeg" title="EARTH KRATOM 150CT CAPSULES" text="500$" />
+            <Footer/>
             {/* Other content of your app */}
         </div>
     );
