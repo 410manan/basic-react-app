@@ -1,17 +1,26 @@
 /* Footer.css */
 
 .footer {
-    background-color: #f0f0f0; /* Light grey background */
+    background-color: #e4cfcf70; /* Light grey background */
     padding: 20px 0;
+    margin-top: 20px;
   }
   
+.footer a{
+    color: rgb(61, 79, 185);
+text-decoration: none;
+cursor: pointer;
+}
+.footer a:hover{
+    transform: scale(5);
+}
   .container {
-    max-width: 1000px; /* Limit container width */
+    width: 2000px; /* Limit container width */
     margin: 0 auto; /* Center container horizontally */
   }
   
   .row {
-    display: flex; /* Allow side-by-side arrangement of sections */
+    display: contents; /* Allow side-by-side arrangement of sections */
     flex-wrap: wrap; /* Wrap sections automatically if needed */
     gap: 20px; /* Adjust gap size as needed */
   }
@@ -22,7 +31,9 @@
     flex: 2 0 auto; /* Flexible width, minimum width 0, grow as needed */
     padding: 0px; /* Add some padding for spacing */
     gap: 100px;
+    color: #000000;
   }
+
   
   .footer-heading {
     font-size: 18px;
@@ -58,7 +69,10 @@
     text-align: center;
     margin-top: 20px;
     color: #333;
-    font-size: 14px;
+    font-size: 20px;
+    font-weight: bolder;
+    font-style: italic;
+
   }
   
   .social-media {
