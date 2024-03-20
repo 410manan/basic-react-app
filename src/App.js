@@ -8,6 +8,7 @@ import './Components/Global.css'
 import SearchBar from './Components/Header';
 import Card from './Components/Cards';
 import Footer from './Components/Footer';
+import BestSeller from './Components/BestSeller';
 
 
 const App = () => {
@@ -19,10 +20,8 @@ const App = () => {
             <MyComponent />
             {/* <MyCarousel />
             <Section1 /> */}
-            <Card imageSrc="https://beta.lswdistro.com/files/EARTH%20KRATOM%20150CT%20CAPSULES.jpeg" title="EARTH KRATOM 150CT CAPSULES" text="500$" />
-            <Card imageSrc="https://beta.lswdistro.com/files/EARTH%20KRATOM%20150CT%20CAPSULES.jpeg" title="EARTH KRATOM 150CT CAPSULES" text="500$" />
-            <Card imageSrc="https://beta.lswdistro.com/files/EARTH%20KRATOM%20150CT%20CAPSULES.jpeg" title="EARTH KRATOM 150CT CAPSULES" text="500$" />
-            <Card imageSrc="https://beta.lswdistro.com/files/EARTH%20KRATOM%20150CT%20CAPSULES.jpeg" title="EARTH KRATOM 150CT CAPSULES" text="500$" />
+            <Card />
+            <BestSeller/>
             <Footer/>
             {/* Other content of your app */}
         </div>

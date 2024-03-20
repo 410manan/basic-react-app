@@ -38,7 +38,7 @@ function Navbar() {
 
   return (
     <div className="navbar-full">
-      <nav className="navbar">
+      <div className="navbar">
         <div className="navbar-container">
 
           <ul className="nav-menu">
@@ -96,7 +96,7 @@ function Navbar() {
             </li>
           </ul>
         </div>
-      </nav>
+      </div>
     </div>
   );
 }

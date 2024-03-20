@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import './Cards.css';
+import './BestSeller.css';
 
-const Card = () => {
+const BestSeller = () => {
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
 
@@ -10,23 +10,19 @@ const Card = () => {
       try {
         const doctype = 'Website Item';
         const fields = ["item_name", "web_item_name", "website_image"];
-        const filters = [['new_arrival', '=', 1]];
-        const itemsPerPage = 10;
-        const currentPage = 1;
+        const filters = [['best_seller', '=', 1]]; // Adjust the filter for best sellers
 
         const queryParams = new URLSearchParams({
           fields: JSON.stringify(fields),
           filters: JSON.stringify(filters),
-          limit_start: (currentPage - 1) * itemsPerPage,
-          limit_page_length: itemsPerPage
         }).toString();
-        
+
         const url = `https://beta.lswdistro.com/api/resource/${encodeURIComponent(doctype)}?${queryParams}`;
 
         const response = await fetch(url);
         const jsonData = await response.json();
 
-        setData(jsonData.data);
+        setData(jsonData.data); // Assuming your data is nested within a 'data' property
         setLoading(false);
       } catch (error) {
         console.error('Error fetching data: ', error);
@@ -42,7 +38,7 @@ const Card = () => {
 
   return (
     <div className='top-header'>
-    <div  className="top-section"><p className='header-of-card-container'> New Arrivals</p></div>
+    <div  className="top-section-bestseller"><p className='header-of-card-container'> Best Seller</p></div>
     <div className="card-container">
       {data && data.map((item, index) => (
         <div className="card" style={{ width: '18rem' }} key={index}>
@@ -61,4 +57,4 @@ const Card = () => {
   );
 };
 
-export default Card;
+export default BestSeller;

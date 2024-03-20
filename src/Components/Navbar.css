@@ -1,8 +1,8 @@
 /* Navbar Styles */
 
 .navbar-full {
-  width: 1519.5px; /* Adjust width as needed */
-  z-index: 10000;
+  display: flexbox; 
+  z-index: 1;
 }
 
 .navbar {
@@ -22,7 +22,7 @@
   color: #fff;
   font-size: 1.0rem;
   text-decoration: none;
-  font-weight: bold; /* Add font weight for a bolder logo */
+  font-weight: bold;
 }
 
 .nav-menu {
@@ -38,68 +38,68 @@
 
 .nav-links {
   color: #fff;
-  text-decoration: none; /* Remove underline from links */
-  padding: 0.5rem 0.5rem; /* Add padding for better spacing */
-  transition: all 0.3s ease-in-out; /* Add smooth hover effect */
+  text-decoration: none; 
+  padding: 0.5rem 0.5rem; 
+  transition: all 0.3s ease-in-out; 
 }
 
 .nav-links:hover {
-  background-color: #333; /* Change hover background color */
-  cursor: pointer; /* Add cursor pointer on hover */
+  background-color: #333;
+  cursor: pointer;
 }
 
 .nav-links svg {
-  width: 1.8rem; /* Adjust width as needed */
-  height: 2rem; /* Adjust height as needed */
-  margin-right: 0.5rem; /* Add margin between icon and text */
+  width: 1.8rem;
+  height: 2rem;
+  margin-right: 0.5rem;
 }
 
 /* Dropdown Menu Styles */
 
 .dropdown-content {
-  display: flex; /* Initially hide the dropdown */
-  position: absolute; /* Position the dropdown relative to the link */
-  background-color: #fff; /* Set background color */
-  min-width: 150px; /* Set minimum width */
+  display: flex; 
+  position: absolute; 
+  background-color: #fff; 
+  min-width: 150px;
   list-style: none;
   padding: 0;
   margin: 0;
-  z-index: 1; /* Ensure dropdown appears above other elements */
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  z-index: 1;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .nav-links:hover .dropdown-content {
-  display: block; /* Show the dropdown on hover */
+  display: block;
 }
 
 .dropdown-content li {
-  padding: 0.5rem 1rem; /* Add padding for spacing */
+  padding: 0.5rem 1rem; 
 }
 
 .dropdown-content a {
-  color: #333; /* Text color for dropdown links */
+  color: #333; 
   text-decoration: none;
   transition: all 0.3s ease-in-out;
 }
 
 .dropdown-content a:hover {
-  background-color: #f0f0f0; /* Change hover background color for dropdown links */
+  background-color: #f0f0f0; 
 }
 
 .dropdown-divider {
-  border-top: 1px solid #ddd; /* Example styling for the divider */
-  margin: 0.5rem 0; /* Add some margin for spacing */
+  border-top: 1px solid #ddd;
+  margin: 0.5rem 0; 
 }
 
 .dropdown-column {
-  flex: 1; /* Allocate equal space for each column */
-  padding: 0.5rem; /* Add padding for spacing */
-  list-style: none; /* Remove default list styles */
+  flex: 1;
+  padding: 0.5rem;
+  list-style: none;
 }
 
 .dropdown-column ul {
-  padding: 0; /* Remove default list padding */
-  margin: 0; /* Remove default list margin */
+  padding: 0;
+  margin: 0;
 }
 
 .dropdown-column li{
