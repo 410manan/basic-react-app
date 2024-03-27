@@ -1,7 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import './Cards.css';
+import { useDispatch } from 'react-redux';
+import { bindActionCreators } from 'redux';
+import { actionCreators } from '../State/index';
+
 
 const Card = () => {
+  const dispatch = useDispatch();
+  const {removeFromCart, addToCart} = bindActionCreators(actionCreators, dispatch);
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
 
@@ -52,6 +58,10 @@ const Card = () => {
               <h5 className="card-title">{item.web_item_name}</h5>
             )}
             <p className="card-text">{item.item_name}</p>
+            <div className='button-group'>
+            <button onClick={()=>{removeFromCart(1)}}>-</button>
+            <button onClick={()=>{addToCart(1)}}>+</button><br/>
+            </div>
             <button> Quick View </button>
           </div>
         </div>

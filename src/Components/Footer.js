@@ -4,9 +4,9 @@ import './Footer.css'; // Import your CSS styles for styling
 function Footer() {
     return (
         <footer className="footer">
-            <div className="container">
+            <div className="container-fluid">
                 <div className="row">
-                    <div className="col-md-6 col-lg-3 col-sm-6">
+                    <div className="col-md-6 col-lg-3 col-sm-6 ">
                         <h4>Useful Links</h4>
                         <ul>
                             <a href="#">Home</a><br/>
@@ -17,7 +17,7 @@ function Footer() {
                             <a href="#">Cigar Tax Calculator</a><br/>
                         </ul>
                     </div>
-                    <div className="col-md-6 col-lg-3 col-sm-6">
+                    <div className="col-md-6 col-lg-3 col-sm-6 ">
                         <h4>About</h4>
                         <ul>
                             <a href="#">Orders</a><br/>
@@ -27,7 +27,7 @@ function Footer() {
                             <a href="#">Stores</a><br/>
                         </ul>
                     </div>
-                    <div className="col-md-6 col-lg-3 col-sm-6">
+                    <div className="col-md-6 col-lg-3 col-sm-6 ">
                         <h4>Working hours</h4>
                         <ul>
                             <li>Monday - Friday: <br />

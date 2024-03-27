@@ -10,7 +10,7 @@ const BestSeller = () => {
       try {
         const doctype = 'Website Item';
         const fields = ["item_name", "web_item_name", "website_image"];
-        const filters = [['best_seller', '=', 1]]; // Adjust the filter for best sellers
+        const filters = [['best_seller', '=', 1]];
 
         const queryParams = new URLSearchParams({
           fields: JSON.stringify(fields),
@@ -22,7 +22,7 @@ const BestSeller = () => {
         const response = await fetch(url);
         const jsonData = await response.json();
 
-        setData(jsonData.data); // Assuming your data is nested within a 'data' property
+        setData(jsonData.data);
         setLoading(false);
       } catch (error) {
         console.error('Error fetching data: ', error);

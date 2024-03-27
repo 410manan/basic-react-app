@@ -61,3 +61,8 @@
 .card-container .card .card-body .card-text{
     color: rgb(0, 0, 0);
 }
+
+.button-group{
+margin-bottom: 5px;
+
+}

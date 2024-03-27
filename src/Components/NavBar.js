@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
-import NewIcon from './NewIcon'; // Assuming NewIcon component for the icon
+import NewIcon from './NewIcon';
+import { useSelector } from 'react-redux';
+
+
 const DropdownContent = () => {
   return (
     <div className="dropdown-content d-flex">
@@ -34,6 +37,7 @@ const DropdownContent = () => {
 };
 
 function Navbar() {
+  const quantity = useSelector(state => state.quantity)
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
   return (
@@ -89,9 +93,9 @@ function Navbar() {
                 Promos
               </a>
             </li>
-            <li className="nav-item">
+            <li className="nav-item-mycart">
               <a href="#" className="nav-links">
-                My Cart (0)
+                My Cart ({quantity})
               </a>
             </li>
           </ul>

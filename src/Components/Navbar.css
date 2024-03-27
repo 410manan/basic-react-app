@@ -3,6 +3,7 @@
 .navbar-full {
   display: flexbox; 
   z-index: 1;
+
 }
 
 .navbar {
@@ -70,7 +71,9 @@
 
 .nav-links:hover .dropdown-content {
   display: block;
+  z-index: 900000;
 }
+
 
 .dropdown-content li {
   padding: 0.5rem 1rem; 
@@ -104,4 +107,8 @@
 
 .dropdown-column li{
   list-style: none;
+}
+
+.gif-container{
+  background-image: url('C:\Users\patel\OneDrive - Infocusp Innovations\Desktop\Basic React app\basic-react-app\src\Components\starx-s20000-smart-touch-screen-20ml-disposable-rechargeable-with-hd-full-screen-pencil-image-dektop-wholesale.gif');
 }

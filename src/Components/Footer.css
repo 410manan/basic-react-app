@@ -1,7 +1,8 @@
 /* Footer.css */
 
 .footer {
-    background-color: #e4cfcf70; 
+    background-color: #e4cfcf70; /* Light grey background */
+    padding: 20px 0;
     margin-top: 20px;
   }
   
@@ -14,22 +15,18 @@ cursor: pointer;
     transform: scale(5);
 }
   .container {
-    width: 2000px; 
-    margin: 0 auto; 
+    width: 2000px; /* Limit container width */
+    margin: 0 auto; /* Center container horizontally */
   }
   
-  .row {
-    display: contents;
-    flex-wrap: wrap;
-    gap: 20px;
-  }
+  
   
   .col-md-6,
   .col-lg-3,
   .col-sm-6 {
-    flex: 2 0 auto;
-    padding: 0px;
-    gap: 100px;
+    flex: 2 0 auto; /* Flexible width, minimum width 0, grow as needed */
+    padding: 0px; /* Add some padding for spacing */
+    gap: 20px;
     color: #000000;
   }
 
@@ -38,7 +35,7 @@ cursor: pointer;
     font-size: 18px;
     font-weight: bold;
     margin-bottom: 10px;
-    color: #ff1111;
+    color: #ff1111; /* Text color for headings */
   }
   
   .footer-list {
@@ -51,13 +48,13 @@ cursor: pointer;
   }
   
   .footer-link {
-    color: #333;
+    color: #333; /* Text color for links */
     text-decoration: none;
-    transition: color 0.2s ease-in-out;
+    transition: color 0.2s ease-in-out; /* Smooth hover effect */
   }
   
   .footer-link:hover {
-    color: #000;
+    color: #000; /* Darker color on hover */
   }
   
   .telNo {
@@ -75,18 +72,18 @@ cursor: pointer;
   }
   
   .social-media {
-    margin-top: 10px;
+    margin-top: 10px; /* Add some space above social media icons */
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; /* Space icons evenly */
   }
   
   .social-media a {
-    color: #000000;
+    color: #000000; /* Light color for social media icons */
     font-size: 20px;
-    transition: color 0.2s ease-in-out;
+    transition: color 0.2s ease-in-out; /* Smooth hover effect */
   }
   
   .social-media a:hover {
-    color: #000;
+    color: #000; /* Darker color on hover */
   }
   

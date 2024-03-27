@@ -9,15 +9,19 @@ import SearchBar from './Components/Header';
 import Card from './Components/Cards';
 import Footer from './Components/Footer';
 import BestSeller from './Components/BestSeller';
+import HeroSection from './Components/HeroSection';
 
 
 const App = () => {
     return (
+        <>
         <div>
             {/* <NavigationBar /> */}
+            <MyComponent/>
             <SearchBar/>
             <Navbar />
-            <MyComponent />
+            
+            <HeroSection/>
             {/* <MyCarousel />
             <Section1 /> */}
             <Card />
@@ -25,6 +29,7 @@ const App = () => {
             <Footer/>
             {/* Other content of your app */}
         </div>
+        </>
     );
 };
 
